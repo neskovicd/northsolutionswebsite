@@ -12,7 +12,8 @@ const Footer = () => {
 const handleChange = e =>{
     setFormState({
         ...formState,
-        [e.target.name]: e.target.value
+        [e.target.name]: e.target.value,
+        [e.target.email]: e.target.value
     })
 }
 const encode = (data) => {
@@ -61,7 +62,7 @@ return(
         </SocialMediaWrap>
     </SocialMedia>
    <form name="contact"
-   method = "post"
+   method = "POST"
    data-netlify="true"
    data-netlify-honeypot = "bot-field"
    onSubmit={handleSubmit}>
