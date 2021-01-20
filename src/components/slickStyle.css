@@ -1,0 +1,55 @@
+@font-face{ 
+    font-family: SofiaRegular;
+    src: url(".//fonts/Sofia\ Pro\ Regular\ Az.otf");
+  }
+  @font-face{ 
+    font-family: SofiaMedium;
+    src: url(".//fonts/Sofia\ Pro\ Medium\ Az.otf");
+     }
+  @font-face{
+    font-family: SofiaLight;
+    src : url(".//fonts/Sofia\ Pro\ Light\ Az.otf");
+  }
+  @font-face {
+    font-family: SofiaBold;
+    src : url(".//fonts/Sofia\ Pro\ Bold\ Az.otf");
+    }
+  @font-face {
+  font-family: SofiaSemiBold;
+  src : url(".//fonts/Sofia\ Pro\ Semi\ Bold\ Az.otf");
+  }
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.textWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7rem;
+}
+.txt{
+    color:#353535;
+    font-size: 40px;
+    display: flex;
+    font-family: SofiaRegular;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.txtcolor{
+    font-size: 60px;
+    color: #c12280;
+    font-family: SofiaSemiBold;
+}
+
+.slider {
+    width:80%;
+    margin-bottom: 10rem;
+
+}
