@@ -23,7 +23,7 @@ const encode = (data) => {
   }
 
 const handleSubmit = e =>{
-    fetch("/", {
+    fetch("https://loving-ride-2090d9.netlify.app", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": "contact", ...formState })
