@@ -71,7 +71,10 @@
 
 @media screen and (max-width: 960px){
     .containerText > h1 {
-        font-size: 50px;
+        font-size: 35px;
+        font-family: SofiaRegular;
+        font-weight: 300;
+        padding:1.5rem;
     }
 
     .containerText > p {
@@ -93,7 +96,7 @@
   @media screen and (max-width: 960px){
     .showoffImg {
         margin-bottom:5rem;
-        width: 100%;
+        width: 120%;
         height: 100%;
         justify-content: center;
         align-self: center;  }

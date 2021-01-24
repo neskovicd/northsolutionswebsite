@@ -1,6 +1,8 @@
 import React, {useState, } from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitch, FaTwitter} from 'react-icons/fa'
+import { FaFacebook, FaGit, FaGithub, FaInstagram, FaLinkedin, FaMailBulk, FaMailchimp, FaTwitch, FaTwitter} from 'react-icons/fa'
 import { FooterContainer, SocialIconLink, SocialIcon, SocialIcons, SocialMedia, SocialMediaWrap, WebsiteRights, SocialLogo} from "./Footerelements"
+import "./style.css"
+
 
 const Footer = () => {
 
@@ -23,7 +25,7 @@ const encode = (data) => {
   }
 
 const handleSubmit = e =>{
-    fetch("https://loving-ride-2090d9.netlify.app", {
+    fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": "contact", ...formState })
@@ -36,6 +38,47 @@ const handleSubmit = e =>{
 return(
 
 <FooterContainer>
+    <div class="vWrapper">
+        <div class="listComponent">
+        <label class="llabel">Links</label>
+<ul class = "listLinks">
+    <li class="linkItem">Home</li>
+    <li class="linkItem">About</li>
+    <li class="linkItem">Contact</li>
+</ul>
+</div>
+<div class="listComponent1">
+    <label class="llabel1">Company Info</label>
+<ul class = "listLinks1">
+
+    <li class="linkItem1">Location: <strong>Sarajevo, BiH</strong></li>
+    <li class="linkItem1">Address: <strong>Kolodvorska 5</strong></li>
+    <li class="linkItem1">Contact: <strong>info@northsolutions.io</strong></li>
+</ul>
+</div>
+
+<div class ="contactWrapper">
+    <label class = "inptText">let us contact you</label>
+   <form
+   class="contactForm"
+   name="contact"
+   method = "POST"
+   data-netlify="true"
+   data-netlify-honeypot = "bot-field"
+   onSubmit={handleSubmit}>
+       <input type="hidden" name="form-name" value="contact"/>
+       <input class="inputField"
+       id = "name"
+       type = "text"
+       name = "name"
+       onChange = {handleChange}
+       value = {formState.name}
+       placeholder="enter your e-mail"/>
+
+       <button class="submit" type="submit">Submit</button>
+   </form>
+   </div>
+   </div>
     <SocialMedia>
         <SocialMediaWrap>
             <SocialLogo>
@@ -47,44 +90,19 @@ return(
                     <FaFacebook/>
                 </SocialIconLink>
                 <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                    <FaInstagram/>
-                </SocialIconLink>
-                <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                    <FaTwitter/>
-                </SocialIconLink>
-                <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                     <FaLinkedin/>
                 </SocialIconLink>
                 <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                    <FaTwitch/>
+                    <FaGithub/>
+                </SocialIconLink>
+                <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                    <FaMailBulk/>
                 </SocialIconLink>
             </SocialIcons>
         </SocialMediaWrap>
     </SocialMedia>
-   <form name="contact"
-   method = "POST"
-   data-netlify="true"
-   data-netlify-honeypot = "bot-field"
-   onSubmit={handleSubmit}>
-       <input type="hidden" name="form-name" value="contact"/>
-       <label htmlFor = "nmame">Name</label>
-       <input
-       id = "name"
-       type = "text"
-       name = "name"
-       onChange = {handleChange}
-       value = {formState.name}
-       placeholder="enter your name"/>
-       <label htmlFor = "nmame">email</label>
-       <input
-       id = "name"
-       type = "text"
-       name = "email"
-       onChange = {handleChange}
-       value = {formState.email}
-       placeholder="enter your email"/>
-       <button type="submit">Submit</button>
-   </form>
+  
+ 
 </FooterContainer>
     
 )

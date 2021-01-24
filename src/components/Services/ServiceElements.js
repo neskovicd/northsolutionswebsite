@@ -18,12 +18,12 @@ height:50vh;
 
 
 @media screen and (max-width:920px){
-background-color: #fff;
 display:flex;
 flex-direction: column;
 justify-content:center;
 align-items: center;
-height:30vh;
+padding-bottom:5rem;
+height:150vh;
 }
 
 `
@@ -39,6 +39,9 @@ flex-direction: column;
 justify-content:center;
 padding: 1px;
 align-items:center;
+@media screen and (max-width:920px){
+margin-bottom:3rem;
+}
 `
 
 export const ServiceIcons = styled.img`
@@ -78,6 +81,11 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
+
+@media screen and (max-width:920px){
+background-color:#fff;
+}
+
 `
 
 export const ServicesText = styled.span`

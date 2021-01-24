@@ -1,0 +1,164 @@
+@font-face{ 
+    font-family: SofiaRegular;
+    src: url("..//fonts/Sofia\ Pro\ Regular\ Az.otf");
+  }
+  @font-face{ 
+    font-family: SofiaMedium;
+    src: url("..//fonts/Sofia\ Pro\ Medium\ Az.otf");
+     }
+  @font-face{
+    font-family: SofiaLight;
+    src : url("..//fonts/Sofia\ Pro\ Light\ Az.otf");
+  }
+  @font-face {
+    font-family: SofiaBold;
+    src : url("..//fonts/Sofia\ Pro\ Bold\ Az.otf");
+    }
+  @font-face {
+  font-family: SofiaSemiBold;
+  src : url("..//fonts/Sofia\ Pro\ Semi\ Bold\ Az.otf");
+  }
+  
+.listComponent{
+    margin-top:2rem;
+}
+.listComponent1{
+    margin-top:2rem;
+}
+.listLinks{
+    margin-top:1rem;
+    color:white;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    height:100%;
+    list-style: none;   
+    font-weight: 100;
+    cursor: pointer;
+}
+.listLinks1{
+    margin-top:1rem;
+    color:white;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    height:100%;
+    list-style: none;   
+    font-weight: 100;
+    cursor: pointer;
+}
+
+
+.llabel{
+    margin-top:20px;
+    padding: 0.5rem 2rem;
+    color:white;
+    font-size:20px;
+    font-weight: 800;
+}
+
+.llabel1{
+    margin-top:20px;
+    padding: 0.5rem 2rem;
+    color:white;
+    font-size:20px;
+    font-weight: 800;
+}
+
+.linkItem{
+    margin-bottom: 10px;
+}
+.linkItem1{
+    margin-bottom: 10px;
+}
+
+.linkItem:hover{
+    color:coral;
+    transition: 0.3s ease-in;
+}
+.vWrapper{
+    display:flex;
+justify-content:space-between;
+align-items:center;
+width:90%;
+max-width:900px;
+margin:2rem auto;
+
+}
+
+@media screen and (max-width: 960px){
+
+    .vWrapper{
+        justify-content: center;
+        flex-direction:column;
+        width: 100%;
+        }
+        .contactForm{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .listComponent{
+            display: none !important;
+        visibility: hidden !important;
+        
+        }
+
+        .contactForm{
+            margin-left: 10%;
+            width: 80%;
+        }
+
+        .inptText{
+        padding-left:50px;
+        }
+}
+
+
+.contactForm{
+    display:flex;
+  flex-direction:row;
+
+  border:2px solid rgb(255, 255, 255);
+  background-color: white;
+
+  padding:2px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.inputField{
+    padding-left: 1.5rem;
+    border-radius: 30px 0px 0px 30px;
+    flex-grow: 2;
+    width: 20rem;
+    height: 3rem;
+    border:none;
+}
+
+.labeltext{
+    color:white;
+}
+.submit{
+    width:7rem;
+    border-radius: 30px;
+    border:none;
+    background-color: #1668b2;
+    color:white;
+    font-size:20px;
+    font-weight: 600;
+
+}
+.submit:hover{
+    background-color: #a1226c;
+    transition: 0.3s ease;
+    cursor:pointer;
+}
+.inptText{
+    font-family: SofiaRegular;;
+    margin-left:1rem;
+    color:white;
+    font-size:20px;
+    margin-top:2rem;
+}
+

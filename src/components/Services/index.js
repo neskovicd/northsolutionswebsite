@@ -1,5 +1,5 @@
 import React from 'react'
-import {ServiceIcons, Services, ServicesText, ServicesContainer, Naslov, Podnaslov, Wrapper, ServicesDescription, ServicesText2, ServicesWrapper} from './ServiceElements'
+import {ServiceIcons, Services, ServicesText, ServicesContainer, Naslov, Podnaslov, Wrapper, ServicesDescription, ServicesText2} from './ServiceElements'
 
 function services(){
 return(

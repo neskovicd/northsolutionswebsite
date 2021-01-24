@@ -50,17 +50,18 @@ width:100%;
 `
 
 export const MobileIcon = styled.div`
-display:none;
+  display: none;
 
-@media screen and (max-width: 960px){
+  @media screen and (max-width: 960px) {
     display: block;
+    color:black;
     position: absolute;
     top: 0;
-    right:0;
+    right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
-    cursor:pointer;
-}
+    cursor: pointer;
+  }
 `
 
  export const NavMenu = styled.ul`
@@ -76,17 +77,19 @@ display:none;
     width: 100%;
     height: 90vh;
     position: absolute;
-    top: ${({click}) => (click ? "100%" : "-1000px")};
-     opacity:1;
-     transition: all 0.2s ease;
-     background:#fff;
-}
+    top: 80px;
+    top: ${({ click }) => (click ? "100%" : "-1000px")};
+    opacity: 1;
+    transition: all 0.2s ease;
+    background: #fff;
+  }
 `
 export const NavItem = styled.li`
  height:80px;
-    @media screen and (max-width: 960px){
-     width:100%;
- }
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
  
  `
 
@@ -106,16 +109,17 @@ export const NavItem = styled.li`
     color: #c12280; 
     transition: 0.3s ease-in-out;
    }
- @media screen and(max-width:960px){
-     text-align: center;
-     padding: 2rem;
-     width: 100%;
-     display: table;
 
-     &hover{
-         color: #ff4040;
-         transition: all 0.3s ease;
-     }
+   @media screen and (max-width: 960px) {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+
+    &:hover {
+        color: #c12280; 
+    transition: 0.3s ease-in-out;;
+    }
  }
 `
 NavIcon.defaultProps = {

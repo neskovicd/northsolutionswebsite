@@ -7,14 +7,24 @@ import "../components/slickStyle.css"
 export default class AutoPlay extends Component {
   render() {
     const settings = {
-      dots: true,
+      pauseOnDotsHover:false,
+      dots: false,
       infinite: true,
-      slidesToShow: 4,
+      slidesToShow: 5,
       slidesToScroll: 1,
       autoplay: true,
       speed: 2000,
-      autoplaySpeed: 1000,
-      cssEase: "linear"
+      autoplaySpeed: -10000,
+      cssEase: "linear",
+
+      responsive:[{
+        breakpoint:600,
+        settings :{
+        slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      }]
     };
     return (
       <div class="wrapper">
