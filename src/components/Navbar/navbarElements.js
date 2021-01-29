@@ -4,7 +4,6 @@ import Logo from "../../images/northlogo.png"
 import {createGlobalStyle} from 'styled-components'
 import SofiaRegular from "../fonts/Sofia\ Pro\ Regular\ Az.otf"
 
-
 export const Nav = styled.nav`
 background: ${({active}) => active ? "#fff" : "linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(255,255,255, 0) 100% )"};
 transition: all 0.2s ease-in;
@@ -100,10 +99,9 @@ export const NavItem = styled.li`
  text-decoration: none;
  padding: 0.5rem 2rem;
  height:100%;
- font-family: SofiaRegular;
+ font-family: SofiaLight;
  font-weight:550;
  
-
 
   &:hover{
     color: #c12280; 

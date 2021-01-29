@@ -7,10 +7,10 @@ module.exports = {
     author: `@gatsbyjs`,
   },
 
-  plugins: [`gatsby-plugin-styled-components`],
   plugins: [`gatsby-plugin-material-ui`],
 
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

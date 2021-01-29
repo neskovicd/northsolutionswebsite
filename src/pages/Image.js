@@ -10,7 +10,7 @@ query {
   allFile(
     filter:
     {extension: {regex: "/(jpg)|(png)|(jpeg)/"},
-     name: {nin: ["background", "bg", "gatsby-astronaut", "gatsby-icon", "northlogo", "phone", "react", "reactnative", "node", "django", "python", "gatsby", "xcode", "banner", "northlogo2"] } 
+     name: {nin: ["background", "bg", "gatsby-astronaut", "aboutillustration", "gatsby-icon", "northlogo", "phone", "react", "reactnative", "node", "django", "python", "gatsby", "xcode", "bgminimal", "banner", "northlogo2", "bgminimal2", "minimal", "visionillustration", "Dragan", "Ermin", "Jasmin", "Zlatan", "Andrej", "Jovana", "5thdimension", "majstorProject", "snjeznadolina", "ermex"] } 
     }
     ) {
     edges {

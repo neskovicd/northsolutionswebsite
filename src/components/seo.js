@@ -68,6 +68,8 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>,
+        <script src="https://kit.fontawesome.com/e5d0043ff2.js" crossorigin="anonymous"></script>
       ].concat(meta)}
     />
   )

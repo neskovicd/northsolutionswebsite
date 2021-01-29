@@ -1,0 +1,161 @@
+@font-face{ 
+    font-family: SofiaRegular;
+    src: url("../fonts/Sofia\ Pro\ Regular\ Az.otf");
+  }
+  @font-face{ 
+    font-family: SofiaMedium;
+    src: url("../fonts/Sofia\ Pro\ Medium\ Az.otf");
+     }
+  @font-face{
+    font-family: SofiaLight;
+    src : url("../fonts/Sofia\ Pro\ Light\ Az.otf");
+  }
+  @font-face {
+    font-family: SofiaBold;
+    src : url("../fonts/Sofia\ Pro\ Bold\ Az.otf");
+    }
+  @font-face {
+  font-family: SofiaSemiBold;
+  src : url("../fonts/Sofia\ Pro\ Semi\ Bold\ Az.otf");
+  }
+
+  .title{
+    font-family: SofiaBold;
+    color:rgb(73, 73, 73);
+    font-size: 32px;
+    font-weight: 400;
+    padding-top:10px;
+    padding-bottom: 10px;
+  }
+  .description{
+    font-family: SofiaBold;
+    color:grey;
+    font-size: 16px;
+    width:400px;
+    font-weight: 100;
+    padding-bottom: 20px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+  }
+
+  .containerItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .containerItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 50px;
+  }
+
+  .divImg{
+    width: 450px;
+    height: 318px;
+  }
+  .buttonWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+  }
+  .icon{
+    padding-right: 10px;
+    font-size: 26px;
+  }
+  .btn{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    width: 130px;
+    height: 40px;
+    border:1px solid rgb(197, 197, 197);
+    border-radius: 3.5px;
+    font-family: SofiaRegular;
+    font-weight: 1000px;
+    font-size: 16px;
+    
+  }
+  .btn:hover{
+    border: none;
+    background-color: #1668b2;
+    transition: 0.3s  ease-in-out;
+    color:white;
+    
+  }
+  
+ .bgImg{
+   
+   background-image:url("../../images/majstorProject.png");
+ }
+ .bgImg2{
+   
+  background-image:url("../../images/snjeznadolina.jpg");
+}
+
+.bgImg3{
+   
+  background-image:url("../../images/ermex.jpg");
+}
+
+.bgImg4{
+   
+  background-image:url("../../images/5thdimension.jpg");
+}
+
+.bgImg5{
+   
+  background-image:url("../../images/bbq.png");
+}
+
+.bgImg6{
+   
+  background-image:url("../../images/dedeka.png");
+}
+
+ .iconColor1{
+  color: rgb(253, 101, 46);
+ }
+ .buttoncolor1{
+  background-color: rgb(253, 101, 46);
+ }
+
+ .iconColor{
+  color: rgb(233, 50, 126);
+ }
+ .buttonColor{
+   background-color: rgb(233, 50, 126);
+ }
+ 
+ .header{
+   padding-top:50px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .header1txt{
+   font-family: SofiaMedium;
+   font-size:42px;
+   color:rgb(54, 54, 54);
+
+ }
+
+ .header2txt{
+   font-family: SofiaBold;
+   font-size: 60px;
+   padding-left:15px;
+   padding-bottom: 10px;
+   color:rgb(206, 32, 125);
+ }

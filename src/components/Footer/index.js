@@ -1,5 +1,5 @@
 import React, {useState, } from 'react'
-import { FaFacebook, FaGit, FaGithub, FaInstagram, FaLinkedin, FaMailBulk, FaMailchimp, FaTwitch, FaTwitter} from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaLinkedin, FaMailBulk} from 'react-icons/fa'
 import { FooterContainer, SocialIconLink, SocialIcon, SocialIcons, SocialMedia, SocialMediaWrap, WebsiteRights, SocialLogo} from "./Footerelements"
 import "./style.css"
 

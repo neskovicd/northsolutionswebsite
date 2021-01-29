@@ -6,7 +6,12 @@ import {Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavItem, Na
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const [scroll, setScroll] = useState(false)
-
+    const checkActive = (match, location) => {
+        if(!location) return false;
+        const {pathname} = location;
+        console.log(pathname);
+        return pathname === "/";
+    }
     const handleClick = () => setClick(!click)
 
     const changeNav = () => {
@@ -37,14 +42,14 @@ return (
                 {click ? <FaTimes/> : <FaBars/>}
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
-                <NavItem>
-                    <NavLinks to="/">About Us</NavLinks>
+            <NavItem>
+                    <NavLinks to="/" activeClassName="active-link" isActive={checkActive} activeStyle={{color:"#c12280"}} >Home</NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks to="/">Images</NavLinks>
+                    <NavLinks to="/Aboutus" activeClassName="active-link" isActive={checkActive} activeStyle={{color:"#c12280"}}>About Us</NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks to="/">Gallery</NavLinks>
+                    <NavLinks to="/Portfolio" activeClassName="active-link" isActive={checkActive} activeStyle={{color:"#c12280"}}>Portfolio</NavLinks>
                 </NavItem>
                 <NavItem>
                     <NavLinks to="/">Contact</NavLinks>

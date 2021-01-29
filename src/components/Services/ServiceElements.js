@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import {createGlobalStyle} from 'styled-components'
-import {createGlobalStyleBold} from 'styled-components'
 import SofiaRegular from "../fonts/Sofia\ Pro\ Regular\ Az.otf"
 import SofiaBold from "../fonts/Sofia\ Pro\ Semi\ Bold\ Az.otf"
 import SofiaLight from "../fonts/Sofia\ Pro\ Light\ Az.otf"
