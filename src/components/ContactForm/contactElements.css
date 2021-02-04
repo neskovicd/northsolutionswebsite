@@ -1,0 +1,386 @@
+@font-face{ 
+    font-family: SofiaRegular;
+    src: url("../fonts/Sofia\ Pro\ Regular\ Az.otf");
+  }
+  @font-face{ 
+    font-family: SofiaMedium;
+    src: url("../fonts/Sofia\ Pro\ Medium\ Az.otf");
+     }
+  @font-face{
+    font-family: SofiaLight;
+    src : url("../fonts/Sofia\ Pro\ Light\ Az.otf");
+  }
+  @font-face {
+    font-family: SofiaBold;
+    src : url("../fonts/Sofia\ Pro\ Bold\ Az.otf");
+    }
+  @font-face {
+  font-family: SofiaSemiBold;
+  src : url("../fonts/Sofia\ Pro\ Semi\ Bold\ Az.otf");
+  }
+  
+
+  .mainContactWrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      background-color: rgb(240, 240, 240);
+  }
+
+  .squareDiv{
+      height:760px;
+      width: 550px;
+      background-color: #3e2092;
+      border-radius: 30px 0 0 30px
+  }
+
+
+  .circleWrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items:left;
+  }
+  .insideCircle2{
+
+      margin-left:80px;
+      height: 200px;
+      width: 200px;
+      display: flex;
+      background-color:#7e53fa;
+      border-radius: 100px;
+      margin-top:20px;
+
+    
+  }
+.insideCircle1{
+    margin-top:130px;
+    height: 150px;
+    width: 150px;
+    margin-left: -80px;
+    background-color: #fa959dde;
+    border-radius: 150px;
+
+}
+
+.contactTextWrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:left;
+}
+
+.contacTitle{
+    color: white;
+    font-size: 42px;
+    font-family: SofiaMedium;
+    margin-left:50px;
+    margin-top:35px;
+    letter-spacing: 0;
+
+}
+
+.contactDesc{
+    color:rgba(255, 255, 255, 0.74);
+    margin-left:50px;
+    margin-top:10px;
+    font-family: SofiaLight;
+    font-size:22px;
+}
+
+.envelopeDiv{
+    display:flex;
+    column-gap: 30px;
+    margin-top:70px;
+    margin-left: 70px;
+    color:rgba(255, 255, 255, 0.849);
+    font-family:SofiaLight;
+    font-size:20px;
+    cursor:pointer;
+}
+
+.phoneDiv{
+    cursor: pointer;
+    column-gap: 30px;
+    display:flex;
+    margin-top:60px;
+    margin-left: 70px;
+    color:rgba(255, 255, 255, 0.849);
+    font-family:SofiaLight;
+    font-size: 20px;
+}
+.locationDiv{
+    cursor: pointer;
+    column-gap: 30px;
+    display: flex;;
+    margin-top:60px;
+    margin-left: 70px;
+    color:rgba(255, 255, 255, 0.849);
+    font-family: SofiaLight;
+    font-size:20px
+    
+}
+.FaEnvelope{
+    color:#fa959d;
+    font-size: 36px;
+    cursor: pointer;
+}
+.FaLocationArrow{
+    color:#fa959d;
+    font-size: 36px;
+    cursor: pointer;
+}
+.FaPhone{
+    color:#fa959d;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.Facebook{
+    margin-top:210px;
+    margin-left:70px;
+    font-size: 32px;
+    color:rgba(255, 255, 255, 0.863);
+    cursor: pointer;
+}
+
+.Facebook:hover{
+    color:#fa959de7;    
+}
+.Linkedin{
+    margin-top:210px;
+    font-size: 32px;
+    color:rgba(255, 255, 255, 0.863);
+    margin-left:30px;
+    cursor: pointer;
+}
+
+.Linkedin:hover{
+    color:#fa959de7;
+}
+
+.Form{
+    width: 100%;
+    display: flex;
+    column-gap: 100px;
+    flex-direction: column;
+    height: 760px;
+    width: 900px;
+    background-color:white;
+    border-radius: 0 30px 30px 0;
+}
+.firstColumn{
+    margin-left:100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.FNInput{
+    height: 50px;
+    width: 250px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid rgb(163, 163, 163);
+}
+.FirstName{
+    font-family: SofiaRegular;
+    color:rgb(163, 163, 163);
+    font-size: 18px;
+    }
+    .column1{
+        margin-top:40px;
+        display: flex;
+        flex-direction: row;
+    }
+    .column2{
+        margin-top:50px;
+        display: flex;
+        flex-direction: row;
+    }
+    .Message{
+        height: 100px;
+        width: 650px;
+        border-top:none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 3px solid rgb(163, 163, 163);
+    }
+    .contactButton{
+        width: 250px;
+        height: 70px;
+        color:white;
+        font-size: 24px;
+        font-family: SofiaRegular;
+        border-radius: 40px;
+        border:none;
+        background-color:#7e53fa;
+        margin-left:60%;
+        margin-top:100px;
+    }
+    .contactButton:hover{
+        border:2px solid #7e53fa;;
+        color: #7e53fa;
+        background-color: white;
+        transition: 0.3s ease-out;
+    }
+    .FNInput:focus{
+        border-color: #7e53fa;
+        transition: 0.3 ease-in-out;
+    }
+    .FNInput:active{
+
+        border-color: #7e53fa;
+    }
+    .FNInput:active:after{
+
+        border-color: #7e53fa;
+    }
+    .FirstName:focus{
+        color: #7e53fa;
+    }
+    
+    @media screen and (max-width: 960px){
+        .squareDiv{
+            height: auto;
+            width: 90%;
+        }
+        
+        .contacTitle{
+            font-size: 24px;
+        }
+        .mainContactWrapper{
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .Form{
+            margin-right:0px;
+            margin-left: 0px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .contactTextWrap{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .column1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left:0px;
+        }
+        .column2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left:0px;
+        }
+        .contacTitle{
+            margin-left:1px;
+        }
+        .contactDesc{
+            margin-left:0px;
+            font-size:16px;
+            width:60%;
+        }
+        .envelopeDiv{
+            justify-content: center;
+            align-items: center;
+            margin-left:0px;
+        }
+        .phoneDiv{
+            justify-content: center;
+            align-items: center;
+            margin-left:-85px;
+            padding:0;
+            
+        }
+        .FaPhone{
+            padding: 0;
+        }
+        .locationDiv{
+            justify-content: center;
+            align-items: center;
+            margin-left:0px;
+        }
+        .FaLocationArrow{
+            justify-content: center;
+            align-items: center;
+            margin-left:30px;
+        }
+        .insideCircle1{
+            display: none;
+            visibility: hidden;
+        }
+        .insideCircle2{
+            display: none;
+            visibility: hidden;
+        }
+        .circleWrapper{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 50px;
+        }
+        .Facebook{
+            margin-top:60px;
+            margin-left: 0px;
+        }
+        .Linkedin{
+            margin-top:60px;
+        }
+        .contactButton{
+            width: 200px;
+            height: 50px;
+            color:white;
+            font-size: 18px;
+            font-family: SofiaRegular;
+            border-radius: 40px;
+            border:none;
+            background-color:#7e53fa;
+            margin-top:30px;
+        }
+        .Message{
+            height: 50px;
+            width: 250px;
+            border-top:none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 3px solid rgb(163, 163, 163);
+        }
+        .column3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left:0px;
+        }
+        .firstColumn{
+            margin-left: 0px;
+        }
+        .buttonDiv{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 100px;
+            padding-left:0px;
+            margin-left: 0px;
+        }
+        }

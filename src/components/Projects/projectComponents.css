@@ -36,6 +36,7 @@
     padding-bottom: 20px;
   }
   .container{
+    padding-top:50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,6 +124,10 @@
   background-image:url("../../images/dedeka.png");
 }
 
+.testimonialsBg{
+   
+  background-image:url("../../images/testimonialsBG.jpg");
+}
  .iconColor1{
   color: rgb(253, 101, 46);
  }
@@ -138,7 +143,7 @@
  }
  
  .header{
-   padding-top:50px;
+   padding-top:30px;
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -159,3 +164,170 @@
    padding-bottom: 10px;
    color:rgb(206, 32, 125);
  }
+ .projectDiagram{
+   height: 40px;
+   width: 40px;
+   border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color:rgba(223, 96, 164, 0.295);
+  
+ }
+ .projectIcon{
+  color:rgb(233, 76, 160);
+  font-size: 20px;
+  font-weight: 600;
+ }
+
+ .testimonialsWrapper{
+   height: 100vh;
+   width: 146.5%;
+   display: flex;
+   flex-direction: column;
+   column-gap: 50px;
+   justify-content: center;
+   align-items: center;
+ }
+ .testImg{
+  background-image:url("../../images/spasoje.jpg");
+  width: 300px;
+  height: 387px;
+  } 
+  .testimonal1{
+    height: 100vh;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+  }
+ .clientName{
+   padding-bottom: 5px;
+   padding-top:5px;
+   font-family: SofiaBold;
+   font-size: 32px;
+   color: rgb(49, 49, 49);
+ }
+
+ .clientDesc{
+   width: 300px;
+   font-family: SofiaRegular;
+   font-size: 20px;
+   color:rgb(85, 85, 85);
+ } 
+
+ .testImg2{
+  background-image:url("../../images/sinisa.jpg");
+  width: 300px;
+  height: 387px;
+ }
+ .testImg3{
+  background-image:url("../../images/zlaja.jpg");
+  width: 300px;
+  height: 387px;
+ }
+
+ .clientNameCEO{
+   font-family: SofiaBold;
+   color: rgb(110, 110, 110);
+   font-size: 14px;
+   padding-bottom: 7px;
+
+ }
+
+ .rowrapper{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   column-gap: 50px;
+ }
+ .header1txtTesti{
+  font-family: SofiaMedium;
+  font-size:42px;
+  color:rgb(54, 54, 54);
+  padding-bottom: 50px;
+
+}
+ .header2txtTesti{
+  font-family: SofiaBold;
+  font-size: 60px;
+  padding-left:15px;
+  padding-bottom: 60px;
+  color: #1668b2;
+ }
+
+ .projectDiagramTesti{
+  height: 40px;
+  width: 40px;
+  border-radius: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#1669b252;
+ 
+}
+
+.projectIconTesti{
+  color: #1668b2;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 960px){
+  .testimonialsWrapper{
+    height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .containerItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divImg{
+  width: 90%;
+}
+.bgImg{
+  width:90%;
+}
+.buttonWrapper{
+  column-gap:3px;
+}
+.rowrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clientDesc{
+  padding-bottom: 30px;
+}
+.header1txtTesti{
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+.header2txtTesti{
+  font-family: SofiaBold;
+  font-size: 60px;
+  padding-left: 0px;
+  padding-bottom: 60px;
+  color: #1668b2;
+ }
+
+    }

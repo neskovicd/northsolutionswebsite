@@ -86,16 +86,16 @@ return(
             </SocialLogo>
             <WebsiteRights>North Solutions © {new Date().getFullYear()}</WebsiteRights>
             <SocialIcons>
-                <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                <SocialIconLink href="https://www.linkedin.com/company/north-solutions-sweden-ab" target="_blank" aria-label="Facebook">
                     <FaFacebook/>
                 </SocialIconLink>
-                <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                <SocialIconLink href="https://www.linkedin.com/company/north-solutions-sweden-ab" target="_blank" aria-label="Facebook">
                     <FaLinkedin/>
                 </SocialIconLink>
                 <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                     <FaGithub/>
                 </SocialIconLink>
-                <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                <SocialIconLink href="hello@northsolutions.io" target="_blank" aria-label="Facebook">
                     <FaMailBulk/>
                 </SocialIconLink>
             </SocialIcons>

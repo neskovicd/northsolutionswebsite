@@ -51,7 +51,7 @@ export default class AutoPlay extends Component {
             <img src={require("../images/node.png")}/>
           </div>
           <div>
-            <img src={require("../images/xcode.png")}/>
+            <img src={require("../images/swift.png")}/>
           </div>
         </Slider>
       </div>

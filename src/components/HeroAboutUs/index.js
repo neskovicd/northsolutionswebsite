@@ -2,7 +2,7 @@ import React from 'react'
 import "./HeroAboutElements.css"
 
 
-function HeroAboutSection() {
+function ContactForm() {
     return(
 
         <div className="hero-container333">
@@ -18,4 +18,4 @@ function HeroAboutSection() {
     
 }
 
-export default HeroAboutSection
+export default ContactForm

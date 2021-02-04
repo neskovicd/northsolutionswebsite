@@ -52,7 +52,10 @@ return (
                     <NavLinks to="/Portfolio" activeClassName="active-link" isActive={checkActive} activeStyle={{color:"#c12280"}}>Portfolio</NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks to="/">Contact</NavLinks>
+                    <NavLinks to="/Careers" activeClassName="active-link" isActive={checkActive} activeStyle={{color:"#c12280"}}>Careers</NavLinks>
+                </NavItem>
+                <NavItem>
+                    <NavLinks to="/Contact"  activeClassName="active-link" isActive={checkActive} activeStyle={{color:"#c12280"}}>Contact</NavLinks>
                 </NavItem>
             </NavMenu>
         </NavbarContainer>

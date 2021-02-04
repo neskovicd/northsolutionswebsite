@@ -60,7 +60,7 @@ function Team() {
                                 <div class="overlay">
                                     <h4>Jasmin Skamo</h4>
                                     <p>
-                                        Full-stack web development expert and engineer with several years of experience, also being one of the best in field.
+                                        Full-stack web development expert and engineer with five years of experience, one of the best Udemy tutors.
                                     </p>
                                     <div class="social">
                                         <ul>
@@ -114,9 +114,9 @@ function Team() {
                             <div class="thumb">
                             <img class="img-fluid" src={Andrej} alt="Thumb"/>
                                 <div class="overlay">
-                                    <h4>Ermin Kreponic</h4>
+                                    <h4>Andrej Crnic</h4>
                                     <p>
-                                        One of the best dev ops engineers and ethical hackers having more than 500,000 Udemy stundets and hundred of safely secured sites.
+                                        Cretive mind of our team with more than five years of experience in UI/UX design, having profound knowledge in most design software.
                                     </p>
                                     <div class="social">
                                     <ul>
@@ -145,7 +145,7 @@ function Team() {
                                 <div class="overlay">
                                     <h4>Jovana Sehic</h4>
                                     <p>
-                                        One of the best dev ops engineers and ethical hackers having more than 500,000 Udemy stundets and hundred of safely secured sites.
+                                        Jovana is our app developer specialized in Android development having more than three years in app development field.
                                     </p>
                                     <div class="social">
                                     <ul>
@@ -172,9 +172,9 @@ function Team() {
                             <div class="thumb">
                             <img class="img-fluid" src={Zlatan} alt="Thumb"/>
                                 <div class="overlay">
-                                    <h4>Ermin Kreponic</h4>
+                                    <h4>Zlatan Paleksic</h4>
                                     <p>
-                                        One of the best dev ops engineers and ethical hackers having more than 500,000 Udemy stundets and hundred of safely secured sites.
+                                        Zlatan is our backend and data wizard, focused on data manipulation, migration and deployment.
                                     </p>
                                     <div class="social">
                                     <ul>
