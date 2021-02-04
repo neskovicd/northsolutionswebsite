@@ -100,9 +100,9 @@ function HeroAboutSection() {
              <div className="firstColumn">
                  <span className="FirstName">Last Name</span>
                  <input className="FNInput"
-                 id = "name"
+                 id = "lastname"
                  type = "text"
-                 name = "name"
+                 name = "lastname"
                  onChange = {handleChange}
                  value = {formState.lastname}
                  />
@@ -112,9 +112,9 @@ function HeroAboutSection() {
              <div className="firstColumn">
                  <span className="FirstName">E-mail</span>
                  <input className="FNInput"
-                 id = "name"
+                 id = "email"
                  type = "text"
-                 name = "name"
+                 name = "email"
                  onChange = {handleChange}
                  value = {formState.email}
                  />
@@ -122,9 +122,9 @@ function HeroAboutSection() {
              <div className="firstColumn">
                  <span className="FirstName">Phone</span>
                  <input className="FNInput"
-                 id = "name"
+                 id = "phone"
                  type = "text"
-                 name = "name"
+                 name = "phone"
                  onChange = {handleChange}
                  value = {formState.phone}/>
              </div>
@@ -133,9 +133,9 @@ function HeroAboutSection() {
              <div className="firstColumn">
                  <span className="FirstName">Message</span>
                  <input className="Message"
-                 id = "name"
+                 id = "message"
                  type = "text"
-                 name = "name"
+                 name = "message"
                  onChange = {handleChange}
                  value = {formState.message}
                  />

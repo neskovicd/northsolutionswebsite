@@ -188,6 +188,31 @@
     border-right: none;
     border-bottom: 3px solid rgb(163, 163, 163);
 }
+.FNInput2{
+    height: 50px;
+    width: 250px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid rgb(163, 163, 163);
+}
+.FNInput3{
+    height: 50px;
+    width: 250px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid rgb(163, 163, 163);
+}
+.FNInput4{
+    height: 50px;
+    width: 250px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid rgb(163, 163, 163);
+}
+
 .FirstName{
     font-family: SofiaRegular;
     color:rgb(163, 163, 163);
