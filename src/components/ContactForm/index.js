@@ -78,7 +78,7 @@ function HeroAboutSection() {
              </div>
          </div>
          <form
-   class="contactForm"
+   class="contactForm1"
    name="contact"
    method = "POST"
    data-netlify="true"

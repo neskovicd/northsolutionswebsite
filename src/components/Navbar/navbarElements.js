@@ -18,7 +18,7 @@ z-index:100;
 
 @media screen and (max-width: 960px){
     background: ${({click}) => (click ? "#fff" :
-    "transparent"
+    "white"
     )};
     transition: all 0.2s ease-in;
 }

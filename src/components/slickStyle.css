@@ -54,8 +54,21 @@
 
 }
 @media screen and (max-width: 960px){
-
+   .wrapper{
+     height: auto;
+   }
+   .textWrapper{
+    height: auto;
+    margin-top:-2.5rem;
+    margin-bottom: 0.2rem;
+  }
+  .txt{
+    margin-bottom: 0px;
+  }
     .slider{
+      margin-top:50px;
+      height: auto;
      width:100%;
+     margin-bottom: 5rem;
     }
 }

@@ -77,10 +77,10 @@
         @media screen and (max-width: 960px){
             .textWrapper2222{
               width: 90%;
-                height: 500vh;
+                height: auto;
             }
             .hero-container222{
-              height: 550vh;
+              height: auto;
              
             }
             .containerNaslov222{

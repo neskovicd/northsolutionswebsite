@@ -7,7 +7,7 @@ import Team from "../components/Team"
 
 const Aboutus = () => (
   <Layout>
-    <SEO title="Home"/>
+    <SEO title="About us"/>
     <HeroAboutUs/>
     <OurVision/>
     <Team/>

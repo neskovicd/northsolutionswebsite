@@ -95,7 +95,7 @@ return(
                 <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                     <FaGithub/>
                 </SocialIconLink>
-                <SocialIconLink href="hello@northsolutions.io" target="_blank" aria-label="Facebook">
+                <SocialIconLink href="info@northsolutions.com" target="_blank" aria-label="Facebook">
                     <FaMailBulk/>
                 </SocialIconLink>
             </SocialIcons>

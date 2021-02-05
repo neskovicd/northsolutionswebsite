@@ -11,7 +11,7 @@ display:flex;
 flex-direction: row;
 justify-content:center;
 column-gap: 20rem;
-padding: 50px 0;
+padding: 20px 0;
 align-items: center;
 height:50vh;
 
@@ -21,8 +21,8 @@ display:flex;
 flex-direction: column;
 justify-content:center;
 align-items: center;
-padding-bottom:5rem;
-height:150vh;
+padding-bottom:0rem;
+height:auto;
 }
 
 `

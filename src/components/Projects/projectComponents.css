@@ -276,6 +276,7 @@
 @media screen and (max-width: 960px){
   .testimonialsWrapper{
     height: auto;
+    width:100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -286,12 +287,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+     width: 100%;
+     height: auto;
+    }
 .containerItem{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: auto;
+  width: 100%;
 }
 .header{
   display: flex;
@@ -300,13 +305,14 @@
   align-items: center;
 }
 .divImg{
-  width: 90%;
+  width: 100%;
 }
 .bgImg{
-  width:90%;
+  width:100%;
 }
 .buttonWrapper{
-  column-gap:3px;
+  width: 100%;
+  column-gap:2px;
 }
 .rowrapper{
   display: flex;
@@ -328,6 +334,35 @@
   padding-left: 0px;
   padding-bottom: 60px;
   color: #1668b2;
+ }
+ .description{
+   width: 100%;
+ }
+ .btn{
+   font-size: 14px;
+   width: 100%;
+ }
+ .bgImg{
+  width: 320px;
+ }
+ .bgImg2{
+   width: 320px;
+ }
+ .bgImg3{
+  width: 320px;
+ }
+ .bgImg4{
+  width: 320px;
+ }
+ .bgImg5{
+  width: 320px;
+ }
+ .bgimg6{
+  width: 320px;
+ }
+
+ .title{
+   width: auto;
  }
 
     }

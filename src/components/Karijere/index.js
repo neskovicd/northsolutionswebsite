@@ -18,7 +18,9 @@ function Karijere() {
                     </div>
                     
                 </div>
+
                 <div className="careersImg"></div>
+
             </div>
         </div>
     )
