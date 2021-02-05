@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeroAboutUs from "../components/HeroAboutUs"
-import OurVision from "../components/Ourvision"
+import OurVision from "../components/OurVision"
 import Team from "../components/Team"
 
 const Aboutus = () => (
