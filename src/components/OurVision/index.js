@@ -2,7 +2,7 @@ import React from 'react'
 import "./OurVision.css"
 
 
-function HeroAboutSection() {
+function OurVision() {
     return(
 
         <div className="hero-container2">
@@ -18,4 +18,4 @@ function HeroAboutSection() {
     
 }
 
-export default HeroAboutSection
+export default OurVision
