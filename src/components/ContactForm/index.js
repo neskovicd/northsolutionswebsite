@@ -79,7 +79,7 @@ function HeroAboutSection() {
          </div>
          <form
    class="contactForm1"
-   name="contact"
+   name="contactForm1"
    method = "POST"
    data-netlify="true"
    data-netlify-honeypot = "bot-field"

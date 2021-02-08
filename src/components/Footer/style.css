@@ -134,6 +134,7 @@ margin:2rem auto;
     width: 20rem;
     height: 3rem;
     border:none;
+    outline: none;
 }
 
 .labeltext{
@@ -147,6 +148,8 @@ margin:2rem auto;
     color:white;
     font-size:20px;
     font-weight: 600;
+    outline: none;
+
 
 }
 .submit:hover{

@@ -187,6 +187,7 @@
     border-left: none;
     border-right: none;
     border-bottom: 3px solid rgb(163, 163, 163);
+    outline: none;
 }
 .FNInput2{
     height: 50px;
@@ -247,24 +248,31 @@
         background-color:#7e53fa;
         margin-left:60%;
         margin-top:100px;
+        outline: none;
     }
     .contactButton:hover{
         border:2px solid #7e53fa;;
         color: #7e53fa;
         background-color: white;
         transition: 0.3s ease-out;
+    
     }
     .FNInput:focus{
         border-color: #7e53fa;
         transition: 0.3 ease-in-out;
+        outline: none;
     }
     .FNInput:active{
 
         border-color: #7e53fa;
+        outline: none;
+
     }
     .FNInput:active:after{
 
         border-color: #7e53fa;
+        outline: none;
+
     }
     .FirstName:focus{
         color: #7e53fa;
