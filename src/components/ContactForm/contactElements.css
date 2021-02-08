@@ -404,6 +404,7 @@
             border-left: none;
             border-right: none;
             border-bottom: 3px solid rgb(163, 163, 163);
+            outline: none;
         }
         .column3{
             display: flex;
