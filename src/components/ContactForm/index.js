@@ -2,7 +2,7 @@ import React,{useState,} from 'react'
 import "./contactElements.css"
 import {FaEnvelope, FaPhone, FaLocationArrow, FaFacebook, FaLinkedin} from "react-icons/fa"
 
-function HeroAboutSection() {
+function contactForm() {
     const [formState, setFormState] = useState({
         name: "",
         lastname: "",
@@ -89,6 +89,7 @@ function HeroAboutSection() {
              <div className="column1">
              <div className="firstColumn">
                  <span className="FirstName">First Name</span>
+                 <input type="hidden" name="form-name" value="contactForm1"/>
                  <input className="FNInput"
                  id = "name"
                  type = "text"
@@ -99,6 +100,7 @@ function HeroAboutSection() {
              </div>
              <div className="firstColumn">
                  <span className="FirstName">Last Name</span>
+                 <input type="hidden" name="form-lastname" value="contactForm1"/>
                  <input className="FNInput"
                  id = "lastname"
                  type = "text"
@@ -111,6 +113,7 @@ function HeroAboutSection() {
              <div className="column2">
              <div className="firstColumn">
                  <span className="FirstName">E-mail</span>
+                 <input type="hidden" name="form-email" value="contactForm1"/>
                  <input className="FNInput"
                  id = "email"
                  type = "text"
@@ -121,6 +124,7 @@ function HeroAboutSection() {
              </div>
              <div className="firstColumn">
                  <span className="FirstName">Phone</span>
+                 <input type="hidden" name="form-phone" value="contactForm1"/>
                  <input className="FNInput"
                  id = "phone"
                  type = "text"
@@ -132,6 +136,7 @@ function HeroAboutSection() {
              <div className="column3">
              <div className="firstColumn">
                  <span className="FirstName">Message</span>
+                 <input type="hidden" name="form-message" value="contactForm1"/>
                  <input className="Message"
                  id = "message"
                  type = "text"
@@ -152,4 +157,4 @@ function HeroAboutSection() {
     
 }
 
-export default HeroAboutSection
+export default contactForm
