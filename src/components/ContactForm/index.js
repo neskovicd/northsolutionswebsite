@@ -32,7 +32,7 @@ function contactForm() {
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: encode({ "form-name": "contact", ...formState })
+            body: encode({ "form-name": "contactForm1", ...formState })
           })
             .then(() => alert("Success!"))
             .catch(error => alert(error));
@@ -148,7 +148,7 @@ function contactForm() {
              </div>
              <div className="buttonDiv">
              
-             <button className="contactButton submit" type="submit">Send</button>
+             <button class="contactButton submit" type="submit">Send</button>
              </div>
          </div>
          </form>
